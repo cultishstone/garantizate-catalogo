@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "actualizado": "2026-08-31",
+  "coberturas": [
+    {
+      "id": "apple-applecare",
+      "marca": "Apple",
+      "nombre": "AppleCare+",
+      "ventana": { "dias": 60 },
+      "antelacion": { "dias": 15 },
+      "desdeLaActivacion": false,
+      "nota": "60 días desde la compra para contratarlo."
+    },
+    {
+      "id": "dji-care-refresh-dron",
+      "marca": "DJI",
+      "nombre": "DJI Care Refresh (dron)",
+      "ventana": { "horas": 48 },
+      "antelacion": { "horas": 24 },
+      "desdeLaActivacion": true,
+      "nota": "48 horas desde que se activa la aeronave, no desde la compra."
+    },
+    {
+      "id": "dji-care-refresh-otros",
+      "marca": "DJI",
+      "nombre": "DJI Care Refresh (otros aparatos)",
+      "ventana": { "dias": 30 },
+      "antelacion": { "dias": 10 },
+      "desdeLaActivacion": true,
+      "nota": "30 días desde la activación."
+    }
+  ]
+}
