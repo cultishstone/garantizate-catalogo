@@ -45,10 +45,20 @@ fichero mal subido no pueden dejarla peor de lo que ya venía.
 
 ## Cómo se cambia
 
-Se edita el JSON y se sube. **No hay que publicar una versión de la app**: eso
-es todo el motivo de que este repositorio exista. Las apps lo consultan como
-mucho una vez por semana y guardan la última copia que pudieron bajar, así que
-un cambio tarda unos días en llegar a todo el mundo.
+Se edita el JSON, se **sube `version`** y se sube. **No hay que publicar una
+versión de la app**: eso es todo el motivo de que este repositorio exista.
+
+Cuánto tarda en llegar, medido el 31-08-2026:
+
+| | |
+|---|---|
+| `raw.githubusercontent.com` sirve lo nuevo | **hasta 5 minutos** (`cache-control: max-age=300`), y **cada nodo caduca por su cuenta**: un rato después de que `curl` devuelva lo nuevo, todavía hay quien recibe lo viejo |
+| La app vuelve a preguntar | **una vez por semana** como mucho |
+| Un aparato sin red | se queda con la última copia que pudo bajar, indefinidamente |
+
+O sea: **esto no sirve para urgencias.** Un cambio tarda días en llegar a todo
+el mundo, y así está pensado — el catálogo cambia dos veces al año, y preguntar
+más a menudo sería gastar batería ajena para nada.
 
 Y si alguien tiene una marca que no está aquí, **puede escribirla él en la app**.
 Lo que escriba gana siempre, incluso a lo que diga este fichero.
