@@ -1,6 +1,8 @@
 {
   "_leeme": "Interruptor de las compilaciones de pruebas de Consta. La clave de cada entrada es el versionCode del APK, no la versión comercial: así se puede matar una compilación y dejar viva otra. 'hasta' es la fecha (AAAA-MM-DD, UTC) en la que deja de servir, y sustituye a la que lleva compilada dentro el APK: sirve para ampliar y para adelantar. 'revocada': true la mata en cuanto ese aparato vuelva a leer este fichero. Si el fichero no existe o no se puede leer, la app NO caduca: usa lo ultimo que leyo, y si nunca leyo nada, la fecha compilada.",
   "consta-android": {
-    "1": { "hasta": "2026-08-01" }
+    "1": {
+      "hasta": "2026-10-20"
+    }
   }
 }
