@@ -2,7 +2,7 @@
   "_leeme": "Interruptor de las compilaciones de pruebas de MealStream para Android. La clave de cada entrada es el versionCode del APK, no la version comercial: asi se puede matar una compilacion y dejar viva otra. 'hasta' es la fecha (AAAA-MM-DD, UTC) en la que deja de servir, y sustituye a la que lleva compilada dentro el APK: sirve para ampliar y para adelantar. 'revocada': true la mata en cuanto ese aparato vuelva a leer este fichero. Si el fichero no existe o no se puede leer, la app NO caduca: usa lo ultimo que leyo, y si nunca leyo nada, la fecha compilada. La version publicada en Play no caduca nunca y este fichero no la toca.",
   "mealstream-android": {
     "1": {
-      "hasta": "2026-09-01"
+      "hasta": "2026-10-05"
     }
   }
 }
